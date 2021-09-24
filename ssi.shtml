@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<script type='text/javascript'>
+//<![CDATA[
+shortcut={all_shortcuts:{},add:function(a,b,c){var d={type:"keydown",propagate:!1,disable_in_input:!1,target:document,keycode:!1};if(c)for(var e in d)"undefined"==typeof c[e]&&(c[e]=d[e]);else c=d;d=c.target,"string"==typeof c.target&&(d=document.getElementById(c.target)),a=a.toLowerCase(),e=function(d){d=d||window.event;if(c.disable_in_input){var e;d.target?e=d.target:d.srcElement&&(e=d.srcElement),3==e.nodeType&&(e=e.parentNode);if("INPUT"==e.tagName||"TEXTAREA"==e.tagName)return}d.keyCode?code=d.keyCode:d.which&&(code=d.which),e=String.fromCharCode(code).toLowerCase(),188==code&&(e=","),190==code&&(e=".");var f=a.split("+"),g=0,h={"`":"~",1:"!",2:"@",3:"#",4:"$",5:"%",6:"^",7:"&",8:"*",9:"(",0:")","-":"_","=":"+",";":":","'":'"',",":"<",".":">","/":"?","\\":"|"},i={esc:27,escape:27,tab:9,space:32,"return":13,enter:13,backspace:8,scrolllock:145,scroll_lock:145,scroll:145,capslock:20,caps_lock:20,caps:20,numlock:144,num_lock:144,num:144,pause:19,"break":19,insert:45,home:36,"delete":46,end:35,pageup:33,page_up:33,pu:33,pagedown:34,page_down:34,pd:34,left:37,up:38,right:39,down:40,f1:112,f2:113,f3:114,f4:115,f5:116,f6:117,f7:118,f8:119,f9:120,f10:121,f11:122,f12:123},j=!1,l=!1,m=!1,n=!1,o=!1,p=!1,q=!1,r=!1;d.ctrlKey&&(n=!0),d.shiftKey&&(l=!0),d.altKey&&(p=!0),d.metaKey&&(r=!0);for(var s=0;k=f[s],s<f.length;s++)"ctrl"==k||"control"==k?(g++,m=!0):"shift"==k?(g++,j=!0):"alt"==k?(g++,o=!0):"meta"==k?(g++,q=!0):1<k.length?i[k]==code&&g++:c.keycode?c.keycode==code&&g++:e==k?g++:h[e]&&d.shiftKey&&(e=h[e],e==k&&g++);if(g==f.length&&n==m&&l==j&&p==o&&r==q&&(b(d),!c.propagate))return d.cancelBubble=!0,d.returnValue=!1,d.stopPropagation&&(d.stopPropagation(),d.preventDefault()),!1},this.all_shortcuts[a]={callback:e,target:d,event:c.type},d.addEventListener?d.addEventListener(c.type,e,!1):d.attachEvent?d.attachEvent("on"+c.type,e):d["on"+c.type]=e},remove:function(a){var a=a.toLowerCase(),b=this.all_shortcuts[a];delete this.all_shortcuts[a];if(b){var a=b.event,c=b.target,b=b.callback;c.detachEvent?c.detachEvent("on"+a,b):c.removeEventListener?c.removeEventListener(a,b,!1):c["on"+a]=!1}}},shortcut.add("Ctrl+U",function(){top.location.href="https://i.redd.it/hafigdanmhd31.jpg"});
+//]]>
+
+ var message="pwned?";
+///////////////////////////////////
+function clickIE4(){if (event.button==2){alert(message);return false;}} function clickNS4(e){if (document.layers||document.getElementById&&!document.all){if (e.which==2||e.which==3){alert(message);return false;}}} if (document.layers){document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS4;} else if (document.all&&!document.getElementById){document.onmousedown=clickIE4;} document.oncontextmenu=new Function("alert(message);return false")
+</script>
+  <head>
+    <title>Touched by Reapers</title>
+    <meta content='https://teamninja-studio.com/doa6/uk/images/characters/ss-kula003.jpg' property='og:image'/>
+    <meta name="google-site-verification" content=""/>
+    <meta name="google-site-verification" content=""/>
+    <meta name="google-site-verification" content=""/>
+    <meta name="google-site-verification" content=""/>
+    <meta name="keywords" content="" />
+    <meta http-equiv="Content-Language" content="en-us-id">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="author" content="">
+    <meta name="robots schedule" content="auto">
+    <meta charset="utf-8">
+    <link rel="Shortcut Icon" href="https://1.bp.blogspot.com/-TJYE00320zk/YO00_Kk7d1I/AAAAAAAAAqM/zYhPZw2-mNkkfgNUS-xJSDtwu4d2wjR0wCLcBGAsYHQ/s320/d.gif" type="icon"/>
+    <style type="text/css">* {cursor: url(https://cur.cursors-4u.net/holidays/hol-1/hol61.cur), auto;}</style><a href="http://www.cursors-4u.com/cursor/2005/10/31/hol61.html" target="_blank" title="Black Bat 2"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Black Bat 2" style="position:absolute; top: 0px; right: 0px;" /></a>
+    <body oncontextmenu="return false;" onkeydown="return false;" onmousedown="return false;">
+   </head>
+  <style>
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.animation{
+	animation: shake 1s;
+    animation-iteration-count: infinite;
+	font-family: 'Shadows Into Light', cursive;
+	font-size:38px;
+}
+.font{
+	font-family: 'PT Sans Narrow', cursive;
+	font-size:20px;
+}
+.font:hover{
+	font-family: 'PT Sans Narrow', cursive;
+	font-size:20px;
+	animation: shake 1s;
+    animation-iteration-count: infinite;
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+a:hover{
+	color:red;
+	text-decoration: underline;
+}
+
+</style>
+
+<style type="text/css">
+body{
+background-color: black;
+background-size: 100% 100%;
+min-height: 700px;
+}
+</style>
+ 
+    <style>
+    * {
+        color: black;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    font-family: Share Tech Mono;
+    color: white;
+      }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+
+      <center>
+        <font size="3"> UUPSS... Touched by Reapers </font><br><br>
+        <img src="https://1.bp.blogspot.com/-Q3LNNr5nF5E/YO0tCXpS8xI/AAAAAAAAAqE/pDrU8aB20X4AL9Y1DG1Anf0dPdEDBWfRgCLcBGAsYHQ/w377-h377/1626156081975.png" height=300>
+        <div class=animation><font size="5"> GreeTz </font></div>
+        </b><font size="4"> :[</font></b><font size="4"><marquee scrollamount="8" width="500" height="10" behavior="alternate" <marquee behavior="alternate"> SanjunganC0de - Reapers - 404Exps - Par00ts - Xjung2722 - x0verKiLL - ./Localc0de-07 - KadalMirinG - DimasHxR - unknown45 - Br0ken33 - Kula Diamond </marquee></marquee></font></b><font size="4">]:</font><br><br><br>
+        </b><font size="1"> reapers@reapers:~$ Hacked By Reapers</font><br>  
+        </b><font size="1"> {XRELAX SECURITY TEAM}</font><br>
+        <audio autoplay="autoplay" loop="loop" width="200px" height="40px"><source src="https://a.top4top.io/m_20427c1qw1.mp3" type="audio/mpeg"></audio>
+
+</html>
